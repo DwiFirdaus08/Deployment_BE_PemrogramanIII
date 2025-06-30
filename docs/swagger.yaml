@@ -108,7 +108,6 @@ definitions:
       username:
         type: string
     type: object
-host: localhost:8088
 info:
   contact:
     email: indra@ulbi.ac.id
@@ -321,6 +320,7 @@ paths:
       - Auth
 schemes:
 - http
+- https
 securityDefinitions:
   BearerAuth:
     in: header
