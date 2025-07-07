@@ -5,6 +5,7 @@ var allowedOrigins = []string{
 	"http://indrariksa.github.io",
 	"http://localhost:5173/",
 	"http://127.0.0.1:8088/",
+	"https://deployment-fe-pemrograman-iii.vercel.app/",
 }
 
 func GetAllowedOrigin() []string {
